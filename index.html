@@ -2,24 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-        <h1>ROG Strix Scope RX EVA-02 Edition</h1>
+      <h1>ROG Strix Scope RX<br />EVA-02 Edition</h1>
     </header>
     <div id="info">
-        <img id="teclado" src="images/rog_strix.png" alt="teclados">
-        <div id="texto">
-            <h2>ROG Strix Scope RX EVA-02 Edition</h2>
-            <p>Teclado óptico RGB para juegos ROG Strix Scope RX EVA-02 Edition para jugadores de FPS, con diseño inspirado en EVA, interruptores mecánicos ópticos ROG RX, iluminación RGB Aura Sync integral, resistencia al agua y al polvo IP57, paso USB 2.0 y placa superior de aleación</p>
-        </div>
+      <img id="teclado" src="images/rog_strix.png" alt="teclados" />
+      <div id="texto">
+        <h2>ROG Strix Scope RX EVA-02 Edition</h2>
+        <p>
+          Teclado óptico RGB para juegos ROG Strix Scope RX EVA-02 Edition para
+          jugadores de FPS, con diseño inspirado en EVA, interruptores mecánicos
+          ópticos ROG RX, iluminación RGB Aura Sync integral, resistencia al
+          agua y al polvo IP57, paso USB 2.0 y placa superior de aleación
+        </p>
+      </div>
     </div>
     <div id="botones">
-        <button>Comprar</button>
-        <button>Ficha Técnica</button>
+      <button>Comprar</button>
+      <button>Ficha Técnica</button>
+    </div>
+    <div id="formulario">
+      <h2>Enterate de la últimas ofertas</h2>
+      <form action="procesar_suscripcion.php" method="post">
+        <label for="email">Nombre:</label>
+        <input type="email" id="email" name="email" alt="Nombre" required />
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" alt="Correo" />
+        <label for="email">Teléfono:</label>
+        <input type="email" id="email" name="email" alt="Telefono" required /><br />
+        <button id="registro" type="submit">Suscribirse</button>
+      </form>
     </div>
   </body>
 </html>
